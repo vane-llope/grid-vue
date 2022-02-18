@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div>
+  <grid/>
+</div>
+ 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import grid from './components/grid.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+ components: {
+    grid
   }
 }
+
+/* npm install --save core-js/modules/es.array.find-index.js core-js/modules/es.array.splice.js core-js/modules/es.function.name.js core-js/modules/es.object.to-string.js*/
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

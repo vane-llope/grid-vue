@@ -1,0 +1,9 @@
+{
+    "items" :[
+        { "id": 1, "name": "sara smith", "score": 95, "phone": "465789" },
+        { "id": 2, "name": "percy jackson", "score": 90, "phone": "465789" },
+        { "id": 3, "name": "john doe", "score": 100, "phone": "465789" },
+        { "id": 4, "name": "jack robinson", "score": 97, "phone": "465789" }
+    ]
+   
+}
